@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+// 共通スタイル
+.container {
+  width: 820px;
+  margin: 0px auto;
+}
+
+#main-visual {
+  background-image: url(../img/02_main_visual.jpg);
+  height: 900px;
+
+  header {
+    width: 85%;
+    height: 122px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-logo {
+      img {
+        height: 72px;
+        width: 266px;
+      }
+    }
+
+    .header-list {
+      display: flex;
+      gap: 45px;
+
+      li {
+        color: #fff;
+        font-size: 14px;
+        font-family: "Gill Sans Std Book", sans-serif;
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}
+
+#concept {
+  padding: 110px 0;
+  background-color: #f6f6f6;
+  color: #13191b;
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic,
+    "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
+
+  .sentence {
+    margin: 0 auto;
+    max-width: 370px;
+
+    h1 {
+      font-size: 44px;
+      text-align: center;
+      letter-spacing: 1.5px;
+      margin-bottom: 60px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 34px;
+      padding: 10px 0;
+    }
+
+    .concept-logo {
+      margin: 10px auto;
+      text-align: center;
+
+      img {
+        width: 211px;
+        height: 54px;
+      }
+    }
+  }
+}
