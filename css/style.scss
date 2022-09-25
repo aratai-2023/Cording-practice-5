@@ -7,13 +7,66 @@
 }
 
 #main-visual {
-  background-image: url(../img/02_main_visual.jpg);
-  height: 900px;
+  position: relative;
+
+  .slider {
+    position: relative;
+  }
+  // dividerのcss
+  .custom-shape-divider-bottom-1664072672 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-bottom-1664072672 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 25px;
+  }
+
+  .custom-shape-divider-bottom-1664072672 .shape-fill {
+    fill: #f6f6f6;
+  }
+  // ここまで(dvider)
+
+  // bxSlider_style
+  .bx-wrapper {
+    background-color: transparent;
+    margin: 0px auto;
+    border: none;
+    box-shadow: none;
+
+    img {
+      display: block;
+      margin: 0px auto;
+    }
+
+    .bx-pager {
+      display: none;
+    }
+
+    .bx-prev,
+    .bx-next {
+      display: none;
+    }
+  }
+  //ここまで(bxSlider)
 
   header {
+    position: absolute;
+    top: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     width: 85%;
     height: 122px;
-    margin: 0px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
