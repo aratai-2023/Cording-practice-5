@@ -215,10 +215,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 75px;
 
     article {
       width: calc(100% / 3);
+      margin-top: 60px;
 
       a {
         width: 250px;
@@ -233,6 +233,11 @@
         h2 {
           @include article-font;
           color: #13191b;
+          margin: 20px 0 0 0;
+          padding: 0 20px;
+          font-weight: bold;
+          letter-spacing: 2.5px;
+          line-height: 35px;
         }
       }
     }

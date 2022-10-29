@@ -6,6 +6,7 @@
 
 #main-visual {
   position: relative;
+  height: 900pxs;
 }
 #main-visual .btn-to-bottom {
   position: absolute;
@@ -163,10 +164,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 75px;
 }
 #product .product-list article {
   width: 33.3333333333%;
+  margin-top: 60px;
 }
 #product .product-list article a {
   width: 250px;
@@ -181,4 +182,9 @@
   font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   font-size: 20px;
   color: #13191b;
+  margin: 20px 0 0 0;
+  padding: 0 20px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  line-height: 35px;
 }/*# sourceMappingURL=style.css.map */
