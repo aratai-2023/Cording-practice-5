@@ -187,4 +187,83 @@
   font-weight: bold;
   letter-spacing: 2.5px;
   line-height: 35px;
+}
+
+#news {
+  padding: 110px 0;
+  background-color: #f6f6f6;
+}
+#news .heading {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans Std Book", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+#news .heading h2:after {
+  content: "";
+  display: block;
+  background-image: url("../img/09_heading_underline.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 8px;
+  margin-top: 10px;
+}
+#news .heading .btn {
+  font-size: 14px;
+  border: 1px solid #13191b;
+  width: 162px;
+  height: 46px;
+  line-height: 46px;
+  text-align: right;
+  box-sizing: border-box;
+}
+#news .heading .btn a {
+  display: block;
+}
+#news .heading .btn a span {
+  padding: 0 10px 0 35px;
+  font-size: 12px;
+}
+#news .heading .btn a:hover {
+  background-color: #13191b;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+#news .news-list {
+  margin-top: 80px;
+}
+#news .news-list article {
+  margin-top: 60px;
+}
+#news .news-list article a {
+  display: flex;
+  gap: 30px;
+}
+#news .news-list article a img {
+  width: 322.5px;
+  height: auto;
+}
+#news .news-list article a h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+#news .news-list article a p {
+  color: #656c6e;
+}
+#news .news-list article a p:nth-of-type(1) {
+  font-family: "Gill Sans", "Gill Sans Std Book", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  padding: 5px 0 20px 0;
+}
+#news .news-list article a p:nth-of-type(2) {
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.75px;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
